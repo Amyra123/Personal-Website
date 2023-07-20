@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rachita Arora</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8d173e907f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Work Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Rachita Arora</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">FULL-STACK DEV</p>
+            <img src="images/rachita.jpeg" alt="a picture of Rachita Arora" class="intro__image">
+        </section>
+
+        <!-- My Projects -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Projects</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Scribble</h3>
+                    <p>Creator of a real-time drawing based multiplayer game in the form of a web app. Implemented the functionality to create rooms and enter any particular room using a link. Members of each group can chat among themselves using the chatbox. Worked with NodeJS, ExpressJS, Socket.io, Javascript, CSS</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Task Manager</h3>
+                    <p>Creator of a task manager application that will allow one to keep a better record of his/her daily tasks. Worked with Javascript, NodeJS, ExpressJS, MongoDB, CSS</p>
+                    
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>GroupUp</h3>
+                    <p>Created a web-application with a functionality of creating groups which would allow like minded people to connect with each other. Worked with PHP, HTML, CSS, Javascript</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#experience" class="btn">My Experience</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Fullstack Developer based out of India</p>
+            
+            <div class="about-me__body">
+                <p>I am a fullstack web developer. I have worked with Backend technologies like NodeJS, ExpressJS, AWS, Frontend technologies like ReactJS, HTML, CSS, Javascript and databases like MySQL and MongoDB.</p>
+            </div>
+            
+            <img src="images/rachita2.jpg" alt="Jane leaning against a bus" class="about-me__image">
+        </section>
+
+        <!-- Experience section -->
+        <section class="my-experience" id="experience">
+            <h2 class="section__title section__title--experience">My Experience</h2>
+            <div class="experiences">
+                <div class="exp exp__odd">
+                    <p class="section__subtitle section__subtitle--experience section__subtitle--experience--odd">AMAZON</p>
+                    <div class="experience__body experience__body--odd">
+                        <ul>
+                            <li>Worked on Blackswan - A Merchant monitoring system with a web portal.</li>
+                            <li>Worked on enhancing the UI to improve User Experience.</li>
+                            <li>Helped in resolving the problem of duplicate alert generation by adding two additional alert states.</li>
+                            <li>Helped in reducing both the noise produced by duplicate alerts and the extra effort for labeling these alerts.</li>
+                            <li>Worked with NodeJS, Typescript, ReactJS, AWS S3, AWS Lambda, Git.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="exp exp__even">
+                    <p class="section__subtitle section__subtitle--experience section__subtitle--experience--even">GOOGLE</p>
+                    <div class="experience__body experience__body--even">
+                        <ul>
+                            <li>Worked on Blackswan - A Merchant monitoring system with a web portal.</li>
+                            <li>Worked on enhancing the UI to improve User Experience.</li>
+                            <li>Helped in resolving the problem of duplicate alert generation by adding two additional alert states.</li>
+                            <li>Helped in reducing both the noise produced by duplicate alerts and the extra effort for labeling these alerts.</li>
+                            <li>Worked with NodeJS, Typescript, ReactJS, AWS S3, AWS Lambda, Git.</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:rachiarora2001@gmail.com" class="footer__link">hello@rachita.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Amyra123">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/rachitaarora/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
